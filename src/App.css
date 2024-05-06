@@ -32,6 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 .cardsContainer {
@@ -59,6 +60,7 @@
 .filtersContainer {
   display: "flex";
   justify-content: center;
+  flex-wrap: wrap;
   margin: "5px";
   gap: "5px";
   width: "100%";

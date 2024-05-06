@@ -55,10 +55,7 @@ const Filters = ({ setFilterData, filterData }) => {
   }, [selectedOptions, setFilterData]);
 
   return (
-    <div
-      className="filtersContainer"
-      style={{ display: "flex", margin: "5px", gap: "5px", width: "100%" }}
-    >
+    <div className="filtersContainer">
       <MultiSelector
         options={experience}
         setSelectedOption={(option) => handleOptionChange(option, "experience")}
