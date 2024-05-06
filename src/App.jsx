@@ -1,6 +1,6 @@
 import "./App.css";
-import Filters from "./Filters";
-import Weekday from "./weekday";
+import Filters from "./components/Filters";
+import Weekday from "./components/weekday";
 
 const App = () => {
   return (

@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import MultiSelector from "./react-select";
-import { setFilterData } from "./actions/actions";
+import { setFilterData } from "../actions/actions";
 import {
   roles,
   experience,
