@@ -88,7 +88,9 @@ const Weekday = ({ filterData }) => {
 
     if (
       filterData.companyName?.length > 0 &&
-      !filterData.companyName.includes(item?.companyName)
+      !item?.companyName
+        .toLowerCase()
+        .includes(filterData.companyName.toLowerCase())
     ) {
       return false;
     }

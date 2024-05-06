@@ -102,7 +102,7 @@ const Filters = ({ setFilterData, filterData }) => {
           name="companyName"
           placeholder="Search Company Name"
           type="search"
-          className="InputBaseInput"
+          className="searchInput"
           value={selectedOptions.companyName}
           onChange={handleChangeCompanyName}
         />
